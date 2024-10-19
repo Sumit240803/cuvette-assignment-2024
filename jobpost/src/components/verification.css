@@ -1,0 +1,46 @@
+.my-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.verify{
+    margin-top: 6px;
+    width: 402px;
+    height: 30px;
+    background: #0B66EF;
+    border-radius: 7px;
+    border:none;
+    padding: 7px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.my-heading{
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    background: #F4F4F4;
+    border-radius: 7px ;
+    
+}
+
+.my-input-div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    outline: none;
+}

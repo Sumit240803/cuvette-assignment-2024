@@ -1,0 +1,27 @@
+.main-content{
+    display: flex;
+    
+}
+
+.side-nav{
+    border-right: 1px solid #C5C5C5;
+    width:130px;
+    height: 100vh;
+    left: 0;
+
+}
+.side-nav img {
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.interview-tab button{
+    background: #0B66EF;
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 7px;
+}

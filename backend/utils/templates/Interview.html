@@ -1,0 +1,60 @@
+<!-- templates/interviewNotification.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      color: #555;
+    }
+    .job-details {
+      margin-top: 20px;
+      text-align: left;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Interview Notification</h2>
+    <p>Dear Candidate,</p>
+    <p>We are pleased to inform you that you have been shortlisted for an interview.</p>
+
+    <div class="job-details">
+      <h3>Job Title: {{jobTitle}}</h3>
+      <p><strong>Job Description:</strong> {{jobDescription}}</p>
+      <p><strong>Experience Level:</strong> {{experienceLevel}}</p>
+      <p><strong>Interview Date:</strong> {{endDate}}</p>
+    </div>
+
+    <p>We look forward to meeting you!</p>
+  </div>
+  <div class="footer">
+    <p>Best regards,<br>Your Company Name</p>
+  </div>
+</body>
+</html>

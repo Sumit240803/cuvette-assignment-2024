@@ -1,0 +1,11 @@
+.main-section{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.dummy-text{
+    width: 522px;
+height: 116px;
+margin-bottom: 136px;
+}
