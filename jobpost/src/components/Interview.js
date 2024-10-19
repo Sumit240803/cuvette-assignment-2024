@@ -28,7 +28,7 @@ const InterviewForm = () => {
     });
     try{
         const token = localStorage.getItem("token")
-        const response = await fetch("http://localhost:5000/auth/create-interview",{
+        const response = await fetch(`${process.env.API_URL}/auth/create-interview`,{
             method : "POST",
             headers : {
                 "Authorization" : `Bearer ${token}`,

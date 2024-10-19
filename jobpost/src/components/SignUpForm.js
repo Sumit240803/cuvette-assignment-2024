@@ -24,7 +24,7 @@ const SignUpForm = ({onSuccess}) => {
   // Function to handle the Proceed button
   const handleProceed = async () => {
     try {
-      const response = await fetch("http://localhost:5000/auth/signup", {
+      const response = await fetch(`${process.env.API_URL}/auth/signup`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

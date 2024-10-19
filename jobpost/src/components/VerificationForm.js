@@ -15,7 +15,7 @@ const VerificationForm = () => {
             const email = localStorage.getItem("email");
             console.log(email);
             console.log(emailOtp);
-            const response = await fetch("http://localhost:5000/auth/verify-email", {
+            const response = await fetch(`${process.env.API_URL}/auth/verify-email`, {
                 method: "POST",
                 headers: {
                     "Content-Type": 'application/json'
@@ -38,7 +38,7 @@ const VerificationForm = () => {
             const phone = localStorage.getItem("phone");
             console.log(phone);
             console.log(phoneOtp);
-            const response = await fetch("http://localhost:5000/auth/verify-phone", {
+            const response = await fetch(`${process.env.API_URL}/auth/verify-phone`, {
                 method: "POST",
                 headers: {
                     "Content-Type": 'application/json'
